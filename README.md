@@ -52,4 +52,4 @@ Then run the following:
 python tester.py
 ```
 Follow the prompts as it asks for how many tests to run and such.
-The output is the average input count for all the tests simulated and a list of all the input string generated from each test seperately, although they dont fit on a terminal (maybe if you're lucky you can rng one that does).
+The output is the average input count for all the tests simulated.
