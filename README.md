@@ -21,9 +21,9 @@ Through terminal (assuming you are in CS330SecurityLock directory)
 cd dist
 lock.exe
 ```
-You can also open CS330SecurityLock/dist in a file management tool and open lock.exe manually.
+You can also open CS330SecurityLock/dist in a file management tool and run lock.exe manually.
 
-Type into the textbox and characters you want.
+Type into the textbox any characters you want.
 The current state of the lock system is displayed after every next input.
 
-Note: non-int inputes are ignored, but not explicitly displayed
+Note: non-int inputs are ignored, but this mechanic is not explicitly displayed.
