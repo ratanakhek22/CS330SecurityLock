@@ -34,7 +34,7 @@ Note: non-int inputs are ignored, but this mechanic is not explicitly displayed.
 ### Part 2: Intruder Simulation tests
 Note: Part 2 has no GUI elements and will be run in terminal because it is counterintuitive for your security device to have a button that breaks your system.
 
-###### Estimated runtime for breaking passcode
+#### Estimated runtime for breaking passcode
 Assumptions:
  - Uniform Distribution of digits for RNG
  - 1 sec for each new digit tested
@@ -42,7 +42,7 @@ The unlocking passcode 807711 is a 6 digit number. Since the checking system ult
 
 If we assume average luck to be 50% of worst case runtime, 500000 seconds ~= 138 hours ~= 5 days.
 
-###### Use terminal for actual test
+#### Use terminal for actual test
 Using python's random number generator for algorythm
 
 Firstly close the GUI if you have it open.
