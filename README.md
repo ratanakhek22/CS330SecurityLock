@@ -2,7 +2,8 @@
 CS 330 program assignment that simulates a lock security system.
 
 # Set Up Process
-1. clone from GitHub to some directory 
+1. clone from GitHub to some directory
+
 for example using git bash (assuming you're in your desired folder)
 ```
 git clone https://github.com/ratanakhek22/CS330SecurityLock.git
