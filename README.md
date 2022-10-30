@@ -71,4 +71,4 @@ Firstly, I decided I'd use python for the assignment because it is able to creat
 My estimating was way off, I underestimated randomness (probably would have helped if I remembered things from AP Stats). I originally ran a 10,000 iteration test, but my laptop fans went up to 5000+ rpm only happens on the heavy games I play. Thus I tested changed the test amount and found 70 iterations to be not as frightening (results are attached).
 
 #### Finite Automata
-The program takes in characters in the set {0, 1, 2, 3, 4, 5, 6, 7, 8, 9}. By inputing multiple characters some string of characters is created where the string x is in set {}
+The program takes in a string of digits and changes from locked to unlocked while running thus it doesn't really have an "accepted input". If we work on the assumption that an accepted ending is one where the program ends in an unlocked state, then the accepted input string x ends in 80771 (unlocks system) with any combination of digits afterword that aren't 807714 (locks system).
