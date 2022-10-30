@@ -3,7 +3,14 @@ CS 330 program assignment that simulates a lock security system.
 Entering the sequence 807711 unlocks the system while entering 807714 locks it.
 The executable opens a GUI for this system and a command line can be used to run tests through a terminal.
 
+Project for CS 330
+
+Name: Sovannratana Khek
+
 # Set Up Process
+The program is 100% python3 (I ran it on version 3.10.6 to be specific), OS bieng Windows 11
+
+
 1. clone from GitHub to some directory
 
 for example using git bash (assuming you're in your desired folder)
