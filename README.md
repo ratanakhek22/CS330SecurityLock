@@ -74,6 +74,6 @@ My estimating was way off, I underestimated randomness (probably would have help
 The program takes in a string of digits and changes from locked to unlocked while running thus it doesn't really have an "accepted input". If we work on the assumption that an accepted ending is one where the program ends in an unlocked state, then the accepted input string x ends in 80771 (unlocks system) with any combination of digits afterword that aren't 807714 (locks system).
 
 let the set A = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }  
-let the set B = { all x's where x an infinite sequences of A } = a set of strings made up of elements in A of any length  
+let the set B = { all x's where x an infinite sequences of A } = a set of strings made up of elements in A of any length \[0, infinity)  
 let the set C = { all x's where x is in B and doesn't have '80774' in it } = a set of strings from set B that don't have the combination '80774' in them  
 If y is a string accepted by the FA, then it is a language of the FA and y = a + '80771' +  b where a is some element in A and b is some element in B.
