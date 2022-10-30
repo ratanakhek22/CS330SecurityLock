@@ -47,6 +47,7 @@ Note: Part 2 has no GUI elements and will be run in terminal because it is count
 Assumptions:
  - Uniform Distribution of digits for RNG
  - 1 sec for each new digit tested
+
 The unlocking passcode 807711 is a 6 digit number. Since the checking system ultimately checks the last 6 digits for this combination, it is roughly 1/1000000 chance to get the right combination or 6 digit number. If you assume the worst case the breaking runtime would be 1000000 seconds ~= 277 hours ~= 11 days.
 
 If we assume average luck to be 50% of worst case runtime, 500000 seconds ~= 138 hours ~= 5 days.
