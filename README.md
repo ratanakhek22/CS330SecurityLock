@@ -1,5 +1,7 @@
 # CS330SecurityLock
 CS 330 program assignment that simulates a lock security system.
+Entering the sequence 807711 unlocks the system while entering 807714 locks it.
+The executable opens a GUI for this system and a command line can be used to run tests through a terminal.
 
 # Set Up Process
 1. clone from GitHub to some directory
