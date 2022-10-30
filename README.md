@@ -76,4 +76,4 @@ The program takes in a string of digits and changes from locked to unlocked whil
 let the set A = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }  
 let the set B = { all x's where x an infinite sequences of A } = a set of strings made up of elements in A of any length \[0, infinity)  
 let the set C = { all x's where x is in B and doesn't have '80774' in it } = a set of strings from set B that don't have the combination '80774' in them  
-If y is a string accepted by the FA, then it is a language of the FA and y = a + '80771' +  b where a is some element in A and b is some element in B.
+If y is a string accepted by the FA, then it is a language of the FA and y = a + '80771' +  b where a is some element in set A and b is some element in set B.
