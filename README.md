@@ -64,6 +64,8 @@ Follow the prompts as it asks for how many tests to run and such.
 The output is the average input count for all the tests simulated.
 
 ### Memo/Summary
+NOTE: There are screenshots in the repository that include my FA diagram and test results.
+
 #### Development process
 Firstly, I decided I'd use python for the assignment because it is able to create a simple GUI and it is easily executable even without making the .exe file that I had in the set up process. This left me with 2 tasks, find how to make a GUI with python (I knew it was possible just didn't learn it yet) and make a python file into an executable (assumed it was possible because python is already a script). I ended up learning how to use tkinter which is built into python for GUI creation and found a library to make a .exe (if I didn't I'd have left it to run as a script). After making a simple GUI, I started thinking about the checking algorithm. Luckily, the state machine was straight forward in that one digit/input is either correct or not. Thus I implemented the state machine using an array of every digit with some pointer that would follow the state machine diagram I attached. For the testing algorithm I used the Password class I created and its functions aongside a RNG to just run checks until the lock unlocked.
 
